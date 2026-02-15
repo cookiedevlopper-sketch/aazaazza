@@ -1,0 +1,138 @@
+local Getgc, v58, v63, Dump, Getupvalue, Debug_Info_Result, What, Getupvalue_3;
+local fenv = getfenv();
+if (rawget ~= nil) then -- ran, if id: 1
+    if (setfenv ~= nil) then -- ran, if id: 2
+        if (setfenv ~= nil) then -- ran, if id: 3
+            if (getmetatable ~= nil) then -- ran, if id: 4
+                if (getmetatable ~= nil) then -- ran, if id: 5
+                    if (getgenv ~= nil) then -- ran, if id: 6
+                        if (getgenv ~= nil) then -- ran, if id: 7
+                            Getgc = fenv.getgc;
+                            if (Getgc ~= nil) then -- ran, if id: 8
+                                if (Getgc ~= nil) then -- ran, if id: 9
+                                    if (os ~= nil) then -- ran, if id: 10
+                                        if (os ~= nil) then -- ran, if id: 11
+                                            if (task ~= nil) then -- ran, if id: 12
+                                                if (task ~= nil) then -- ran, if id: 13
+                                                    if (pcall ~= nil) then -- ran, if id: 14
+                                                        if (pcall ~= nil) then -- ran, if id: 15
+                                                            if (error ~= nil) then -- ran, if id: 16
+                                                                if (error ~= nil) then -- ran, if id: 17
+                                                                    if (setmetatable ~= nil) then -- ran, if id: 18
+                                                                        if (setmetatable ~= nil) then -- ran, if id: 19
+                                                                            if (_ENV ~= nil) then -- didnt run, if id: 20
+                                                                            end;
+                                                                        end;
+                                                                    end;
+                                                                end;
+                                                            end;
+                                                        end;
+                                                    end;
+                                                end;
+                                            end;
+                                        end;
+                                    end;
+                                end;
+                            end;
+                        end;
+                    end;
+                end;
+            end;
+        end;
+    end;
+end;
+if (getfenv ~= nil) then -- ran, if id: 21
+    if (getfenv ~= nil) then -- ran, if id: 22
+        if (xpcall ~= nil) then -- ran, if id: 23
+            if (xpcall ~= nil) then -- ran, if id: 24
+                if (assert ~= nil) then -- ran, if id: 25
+                    if (assert ~= nil) then -- ran, if id: 26
+                        if (debug ~= nil) then -- ran, if id: 27
+                            if (debug ~= nil) then -- ran, if id: 28
+                                if (math ~= nil) then -- ran, if id: 29
+                                    if (math ~= nil) then -- ran, if id: 30
+                                        if (ipairs ~= nil) then -- ran, if id: 31
+                                            if (ipairs ~= nil) then -- ran, if id: 32
+                                                if (coroutine ~= nil) then -- ran, if id: 33
+                                                    if (coroutine ~= nil) then -- ran, if id: 34
+                                                        if (rawset ~= nil) then -- ran, if id: 35
+                                                            if (rawset ~= nil) then -- ran, if id: 36
+                                                                if (pairs ~= nil) then -- ran, if id: 37
+                                                                    if (pairs ~= nil) then -- ran, if id: 38
+                                                                        if (writefile ~= nil) then -- ran, if id: 39
+                                                                            if (writefile ~= nil) then -- ran, if id: 40
+                                                                                if (typeof ~= nil) then -- ran, if id: 41
+                                                                                    if (typeof ~= nil) then -- ran, if id: 42
+                                                                                        if (rawlen ~= nil) then -- ran, if id: 43
+                                                                                            if (rawlen ~= nil) then -- ran, if id: 44
+                                                                                                if (restorefunction ~= nil) then -- ran, if id: 45
+                                                                                                    if (restorefunction ~= nil) then -- ran, if id: 46
+                                                                                                        if (select ~= nil) then -- ran, if id: 47
+                                                                                                            if (select ~= nil) then -- ran, if id: 48
+                                                                                                                if (appendfile ~= nil) then -- ran, if id: 49
+                                                                                                                    if (appendfile ~= nil) then -- ran, if id: 50
+                                                                                                                        if (next ~= nil) then -- ran, if id: 51
+                                                                                                                            if (next ~= nil) then -- ran, if id: 52
+                                                                                                                                if (rawequal ~= nil) then -- ran, if id: 53
+                                                                                                                                    if (rawequal ~= nil) then -- ran, if id: 54
+                                                                                                                                        local _ = (Instance ~= nil) and Instance.new;
+                                                                                                                                        v58 = (Instance.new ~= nil) and true;
+                                                                                                                                        if v58 then -- ran, if id: 55
+                                                                                                                                            local _ = v58 and 97;
+                                                                                                                                            v63 = (game ~= nil) and (type(game) ~= "table");
+                                                                                                                                            if v63 then -- ran, if id: 56
+                                                                                                                                                local _ = v63 and 43;
+                                                                                                                                            end;
+                                                                                                                                            if (game ~= nil) then -- ran, if id: 57
+                                                                                                                                                local v68, Pcall_Result = pcall(game.GetService, game, "Players");
+                                                                                                                                                if (
+                                                                                                                                                    v68 and Pcall_Result
+                                                                                                                                                ) and (type(Pcall_Result) == type(game)) then -- ran, if id: 58
+                                                                                                                                                    Dump = fenv.dump;
+                                                                                                                                                    if (Dump ~= nil) then -- ran, if id: 59
+                                                                                                                                                        if (pcall ~= nil) then -- ran, if id: 60
+                                                                                                                                                            local _ = (debug ~= nil);
+                                                                                                                                                            if v78 then -- ran, if id: 61
+                                                                                                                                                                local v79 = (debug.getinfo ~= nil);
+                                                                                                                                                                if v79 then -- ran, if id: 62
+                                                                                                                                                                    local v80 = debug and debug.getinfo;
+                                                                                                                                                                end;
+                                                                                                                                                            end;
+                                                                                                                                                        end;
+                                                                                                                                                    end;
+                                                                                                                                                end;
+                                                                                                                                            end;
+                                                                                                                                        end;
+                                                                                                                                    end;
+                                                                                                                                end;
+                                                                                                                            end;
+                                                                                                                        end;
+                                                                                                                    end;
+                                                                                                                end;
+                                                                                                            end;
+                                                                                                        end;
+                                                                                                    end;
+                                                                                                end;
+                                                                                            end;
+                                                                                        end;
+                                                                                    end;
+                                                                                end;
+                                                                            end;
+                                                                        end;
+                                                                    end;
+                                                                end;
+                                                            end;
+                                                        end;
+                                                    end;
+                                                end;
+                                            end;
+                                        end;
+                                    end;
+                                end;
+                            end;
+                        end;
+                    end;
+                end;
+            end;
+        end;
+    end;
